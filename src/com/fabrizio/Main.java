@@ -6,5 +6,9 @@ public class Main {
 	// write your code here
 
         System.out.println("Hello, Lou");
+
+        int myFirstNumber = 10 + 5;
+
+        System.out.println(myFirstNumber);
     }
 }
