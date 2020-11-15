@@ -8,7 +8,11 @@ public class Main {
         System.out.println("Hello, Lou");
 
         int myFirstNumber = 10 + 5;
+        int mySecondNumber = 12;
+        int myThirdNumber = myFirstNumber * 2;
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        int myLastOne = myTotal - 1000;
 
-        System.out.println(myFirstNumber);
+        System.out.println(myLastOne);
     }
 }
