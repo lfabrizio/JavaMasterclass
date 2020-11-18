@@ -7,12 +7,10 @@ public class Main {
 
         System.out.println("Hello, Lou");
 
-        int myFirstNumber = 10 + 5;
-        int mySecondNumber = 12;
-        int myThirdNumber = myFirstNumber * 2;
-        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
-        int myLastOne = myTotal - 1000;
+        int myMinIntValue = Integer.MIN_VALUE;
+        int myMaxIntValue = Integer.MAX_VALUE;
 
-        System.out.println(myLastOne);
+        System.out.println("Integer Min Value : " + myMinIntValue);
+        System.out.println("Integer Max Value : " + myMaxIntValue);
     }
 }
