@@ -7,10 +7,10 @@ public class Main {
 
         System.out.println("Hello, Lou");
 
-        int myMinIntValue = Integer.MIN_VALUE;
-        int myMaxIntValue = Integer.MAX_VALUE;
+        int minValue = Integer.MIN_VALUE;
+        int maxValue = Integer.MAX_VALUE;
 
-        System.out.println("Integer Min Value : " + myMinIntValue);
-        System.out.println("Integer Max Value : " + myMaxIntValue);
+        System.out.println("Integer Min Value : " + minValue);
+        System.out.println("Integer Max Value : " + maxValue);
     }
 }
