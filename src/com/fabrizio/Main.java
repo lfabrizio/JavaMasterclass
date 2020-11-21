@@ -5,23 +5,17 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
+
         System.out.println("Hello, Lou");
+        byte byteValue = 10;
+        short shortValue = 20;
+        int intValue = 50;
+        long longValue = 50000;
 
-       short myMinShortValue = Short.MIN_VALUE;
-       short myMaxShortValue = Short.MAX_VALUE;
+        long sum = (byteValue + shortValue + intValue);
+        System.out.println(longValue + 10L * sum);
 
-       long myMinLongValue = Long.MIN_VALUE;
-       long myMaxLongValue = Long.MAX_VALUE;
-        System.out.println("Short min is equal to " + myMinShortValue);
-        System.out.println("Short max is equal to " + myMaxShortValue);
 
-        System.out.println("long min value is " + myMinLongValue);
-        System.out.println("long max value is " + myMaxLongValue);
 
-        long myLong = 100L;
-        long myMinLong =Long.MIN_VALUE;
-        long myMaxLong = Long.MAX_VALUE;
-        System.out.println("long min" + myMinLong);
-        System.out.println("long max " + myMaxLong);
     }
 }
