@@ -9,29 +9,21 @@ public class Main {
 
 
         System.out.println("Hello, Lou");
-        float myMinFloatValue = Float.MIN_VALUE;
-        float myMaxFloat = Float.MAX_VALUE;
-        System.out.println("Float minimum value = " + myMinFloatValue);
-        System.out.println("Float max value " + myMaxFloat);
+        char myChar = 'D';
+        char myUni = '\u0044';
+        System.out.println(myChar);
+        System.out.println(myUni);
 
-        double myMinDoubleValue = Double.MIN_VALUE;
-        double myMaxDouble = Double.MAX_VALUE;
-        System.out.println("Double minimum value = " + myMinDoubleValue);
-        System.out.println("Double max value " + myMaxDouble);
+        char myCopyrightChar = '\u00A9';
+        System.out.println(myCopyrightChar);
 
-        int myIntValue = 5/3;
-        float myFloatValue = 5f/3f;
-        double myDoubleValue = 5.00/3.00;
-        System.out.println("My int value " + myIntValue);
-        System.out.println("My float " + myFloatValue);
-        System.out.println("My double" + myDoubleValue);
+        boolean myTrueBooleanValue = true;
+        boolean myFalseBooleanValue = false;
+
+        boolean isCustomerOverTwentyOne = true;
 
 
-        double pound = 200d;
-        double kilo = pound * 0.45359237d;
-        System.out.println("Converts to " + kilo);
 
-    
 
 
 
