@@ -23,6 +23,15 @@ public class Main {
         result = result % 3;
         System.out.println("4 % 3 =" + result);
 
+        // result = result + 1;
+        result++; // 1 +1 = 2
+        result--;
+        System.out.println("2 - 1 = " + result);
+
+        //result = result * 10
+        result *= 10;
+        System.out.println("3 * 10 = " + result);
+
 
 
 
