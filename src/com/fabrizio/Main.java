@@ -52,9 +52,10 @@ public class Main {
        }
 
        boolean isCar = false;
-       if(isCar == true){
+       if(isCar ){
            System.out.println("this is not supposed to happen");
        }
+       boolean wasCar = isCar ? true : false;
     }
 }
 
