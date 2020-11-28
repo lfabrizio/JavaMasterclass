@@ -45,8 +45,16 @@ public class Main {
            System.out.println("either or both conditions are true");
        }
 
-       // operator challenge 
+       // operator challenge
+        int newValue = 50;
+       if(newValue == 50){
+           System.out.println("This ");
+       }
 
+       boolean isCar = false;
+       if(isCar == true){
+           System.out.println("this is not supposed to happen");
+       }
     }
 }
 
