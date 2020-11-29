@@ -5,17 +5,16 @@ import java.util.zip.DeflaterOutputStream;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello, Lou ");
-        double kilos = (100 * 1.609344);
-        int highScore = 50;
-        if(highScore == 50){
-            System.out.println("high score ");
-        }
+     int myVariable = 50;
+     if(myVariable ==50){
+         System.out.println("Printed");
+     }
+     myVariable++;
+     myVariable--;
+        System.out.println("This is a test");
 
-        int score = 100;
-        if(score > 99){
-            System.out.println("high score");
-            score = 0;
-        }
+        int anotherVariable = 50;
+        myVariable--;
+        System.out.println("This is another one");
     }
     }
