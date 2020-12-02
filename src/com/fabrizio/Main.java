@@ -17,11 +17,11 @@ public class Main {
      levelCompleted = 8;
      bonus = 200;
      highScore = calculateScore(gameOver, score, levelCompleted, bonus);
-        System.out.println("Your final score was " + highScore);
+        System.out.println("Your Final Score - " + highScore);
 
 
         int highScorePosition = calculateHighScorePosition(1500);
-        displayHighScorePosition("Tim", highScorePosition);
+        displayHighScorePosition("Lou", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(900);
         displayHighScorePosition("Bob", highScorePosition);
@@ -30,7 +30,7 @@ public class Main {
         displayHighScorePosition("Percy", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(50);
-        displayHighScorePosition("Gilbert", highScorePosition);
+        displayHighScorePosition("Tom", highScorePosition);
      }
 
 
