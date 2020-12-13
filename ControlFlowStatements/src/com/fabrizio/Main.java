@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         // control flow
+        printDayOfTheWeek(-1);
+        printDayOfTheWeek(0);
+        printDayOfTheWeek(2);
     }
             public static void printDayOfTheWeek(int day){
                 switch(day){
