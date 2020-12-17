@@ -4,7 +4,7 @@ public class Sum2And5 {
 
     public static void main(String[] args) {
 
-        // sum 2 and 5 
+        // sum 2 and 5
         int count = 0;
         int sum = 0;
         for(int i = 1; i <= 1000;i++ ){
