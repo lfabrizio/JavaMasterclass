@@ -9,6 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter year of birth ");
         int yearOfBirth = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Enter name : ");
         String name = scanner.nextLine();
