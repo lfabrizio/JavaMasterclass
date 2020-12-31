@@ -8,20 +8,28 @@ public class Main {
 // reading user input
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter year of birth ");
-        int yearOfBirth = scanner.nextInt();
-        scanner.nextLine();
 
-        System.out.println("Enter name : ");
-        String name = scanner.nextLine();
+        boolean hasNextInt = scanner.hasNextInt();
+        if(hasNextInt){
+            int yearOfBirth = scanner.nextInt();
+            scanner.nextLine();
 
-        int age = 2020 - yearOfBirth;
+            System.out.println("Enter name : ");
+            String name = scanner.nextLine();
 
-        if(age >= 0 && age <= 100){
+            int age = 2020 - yearOfBirth;
 
-            System.out.println(" your name is " + name + ", and you are " + age + " years old ");
-        } else{
-            System.out.println("Invalid");
+            if(age >= 0 && age <= 100){
+
+                System.out.println(" your name is " + name + ", and you are " + age + " years old ");
+            } else{
+                System.out.println("Invalid");
+            }
+        } else {
+            System.out.println("unable to parse year of birth");
         }
+
+
 
         scanner.close();
     }
