@@ -11,9 +11,14 @@ public class ReadingUserInputChallenge {
 
     while(true){
         int order = counter + 1;
-        System.out.println("enter " + order + "" );
+        System.out.println("Enter here  " + order + "" );
 
         boolean isAnInt = scanner.hasNextInt();
+        if(isAnInt){
+
+        } else {
+            System.out.println("invalid");
+        }
     }
     scanner.close();
 
